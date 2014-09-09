@@ -1,11 +1,15 @@
-build AOSP ROM (bAOSP) for Sony Xperia S (nozomi)
+near AOSP ROM (nAOSP) for Sony Xperia S (nozomi)
 
-This branch is used to have a vanilla AOSP build for Xperia S.
-We have some "minor" AOSP code fix to support full features of this device (eg: FMradio)
+This branch is derived from bAOSP and include some improvements.
+
+New features:
+- Device : AOSP code fix to support full features of this device (eg: FMradio)
+- Email : Remove security compliance (no pin, remote erase, etc)
+
 
 1. initialize the repo:
 
-    repo init -u https://github.com/mickybart/android_manifest -b bAOSP
+    repo init -u https://github.com/mickybart/android_manifest -b nAOSP
 
 2. sync repo:
 
