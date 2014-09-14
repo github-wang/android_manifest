@@ -5,6 +5,8 @@ This branch is derived from bAOSP and include some improvements.
 New features:
 - Device : AOSP code fix to support full features of this device (eg: FMradio)
 - Email : Remove security compliance (no pin, remote erase, etc)
+- Busybox
+- Recovery : FOTAkernel only. You can flash TWRP/CWM into mmcblk0p11
 
 
 1. initialize the repo:
