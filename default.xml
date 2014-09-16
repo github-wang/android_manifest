@@ -3,8 +3,8 @@
 
   <remote  name="mickybart"
            fetch="https://github.com/mickybart" />
-  <remote  name="github"
-           fetch="https://github.com" />
+  <remote  name="koush"
+           fetch="https://github.com/koush" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-4.4.4_r2.0.1"
@@ -304,7 +304,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -412,7 +411,10 @@
   <project path="vendor/sony/nozomi" name="vendor_sony_nozomi" remote="mickybart" revision="bAOSP" />
 
   <!-- Other projects for nAOSP ROM -->
-  <project path="external/busybox" name="android_external_busybox" remote="mickybart" revision="nAOSP" />  
+  <project path="external/busybox" name="android_external_busybox" remote="mickybart" revision="nAOSP" />
+  <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
+  <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="native" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="mickybart" revision="nAOSP" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mickybart" revision="nAOSP" />
 
 </manifest>
