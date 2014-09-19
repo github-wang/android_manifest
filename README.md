@@ -7,7 +7,7 @@ New features:
 - Email : Remove security compliance (no pin, remote erase, etc)
 - Busybox
 - Recovery : FOTAkernel only. You can flash TWRP/CWM into mmcblk0p11
-
+- Superuser : full support of Koush Superuser (integration into Settings)
 
 1. initialize the repo:
 
